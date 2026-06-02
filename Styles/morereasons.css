@@ -1,0 +1,66 @@
+.reasons{
+  background-color: black;
+
+  color: white;
+
+  padding: 70px 80px;
+}
+.reasons h2{
+  font-size: 32px;
+
+  margin-bottom: 30px;
+}
+.reason-cards{
+  display: grid;
+
+  grid-template-columns: repeat(4,1fr);
+
+  gap: 20px;
+}
+.reason-card{
+  background: linear-gradient(
+    135deg,
+    #1c1c3c,
+    #210d19
+  );
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  min-height: 250px;
+}
+.reason-card h3{
+  font-size: 24px;
+
+  margin-bottom: 20px;
+}
+
+.reason-card{
+  position: relative;
+
+  background: linear-gradient(
+    135deg,
+    #1c1c3c,
+    #210d19
+  );
+
+padding: 30px 30px 90px 30px;
+  border-radius: 20px;
+
+  min-height: 250px;
+}
+.card-icon{
+  width: 50px;
+
+  position: absolute;
+
+  bottom: 20px;
+
+  right: 20px;
+}
+.reason-card:hover{
+  transform: translateY(-5px);
+
+  transition: 0.3s;
+}

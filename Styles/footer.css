@@ -1,0 +1,56 @@
+.footer{
+  background-color: black;
+
+  color: gray;
+
+  padding: 70px 80px;
+}
+.footer-links{
+  display: grid;
+
+  grid-template-columns: repeat(4,1fr);
+
+  margin-top: 30px;
+
+  gap: 20px;
+}
+.footer-links a{
+  color: gray;
+
+  font-size: 14px;
+}
+
+
+@media(max-width: 768px){
+
+  .hero-content h1{
+    font-size: 40px;
+
+    line-height: 50px;
+  }
+
+  .email-signup{
+    flex-direction: column;
+  }
+
+  .email-signup input{
+    width: 100%;
+  }
+
+  .reason-cards{
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .navbar{
+    padding: 20px;
+  }
+
+  .logo{
+    width: 100px;
+  }
+
+}
